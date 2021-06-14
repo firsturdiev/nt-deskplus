@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/modules.css">
   <link rel="stylesheet" href="css/main.css">
@@ -14,26 +15,79 @@
 
 <body>
   <!-- SITE-HEADER -->
-  
-    <header class="site-header">
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner"></div>
+    </div>
+  </header>
+
+
+  <!-- SITE-CONTENT -->
+
+  <main class="site-content">
+    <!-- FEATURES -->
+
+    <section class="features">
       <div class="container">
-        <div class="site-header__inner"></div>
+        <div class="features__inner">
+          <div class="intro feature-intro">
+            <p class="intro-title">Simple & Modern</p>
+            <h2 class="intro-heading">Benefits You Get When <br> Using Our Services</h2>
+          </div>
+
+          <ul class="features__list">
+            <li class="features__item feature feature--quality">
+              <div class="feature__wrapper">
+                <h3 class="feature__title">Best quality</h3>
+                <p class="feature__text">All of our funiture uses the best materials and choices for our customers.</p>
+              </div>
+            </li>
+
+            <li class="features__item feature feature--shipping">
+              <div class="feature__wrapper">
+                <h3 class="feature__title">Free shipping</h3>
+                <p class="feature__text">All of our funiture uses the best materials and choices for our customers.</p>
+              </div>
+            </li>
+
+            <li class="features__item feature feature--warranty">
+              <div class="feature__wrapper">
+                <h3 class="feature__title">Warranty</h3>
+                <p class="feature__text">All of our funiture uses the best materials and choices for our customers.</p>
+              </div>
+            </li>
+          </ul>
+
+          <article class="product feature-product">
+            <img class="product__photo" src="./img/produst-photo.png" width="671" height="710" alt="Product photo">
+
+            <div class="product__wrapper">
+              <div class="intro product-intro">
+                <p class="intro-title">Luxroom Modern</p>
+                <h2 class="intro-heading">We Provide You The <br> Best Experience</h2>
+              </div>
+
+              <p class="product__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta
+                dui.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui.</p>
+
+              <a class="product-btn" href="#">Order now</a>
+            </div>
+          </article>
+        </div>
       </div>
-    </header>
-  
-  
-    <!-- SITE-CONTENT -->
-  
-    <main class="site-content"></main>
-  
-  
-    <!-- SITE-FOOTER -->
-    
-    <footer class="site-footer">
-      <div class="container">
-        <div class="site-footer__inner"></div>
-      </div>
-    </footer>
+    </section>
+  </main>
+
+
+  <!-- SITE-FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner"></div>
+    </div>
+  </footer>
 </body>
 
 </html>
