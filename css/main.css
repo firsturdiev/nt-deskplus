@@ -579,7 +579,9 @@
   width: 255px;
 }
 
-.box-products__item {
+.box-products__link {
+  display: block;
+  text-decoration: none;
   font-weight: 350;
   font-size: 18px;
   line-height: 30px;
@@ -727,9 +729,4 @@
 
 .payment-methods__item:last-child {
   margin-right: 0;
-}
-
-.payment-methods__link {
-}
-.payment-methods__photo {
 }
