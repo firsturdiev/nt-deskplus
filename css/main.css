@@ -50,19 +50,6 @@
 .item__link:hover::before {
   background-color: var(--color-blue);
 }
-.contact {
-  padding: 20px 50px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  background-color: #083c6e;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 16px;
-  letter-spacing: 0.1em;
-  font-family: "DM Sans", sans-serif;
-  transition: 0.3s;
-}
 
 /* Hero section */
 .hero__inner {
@@ -88,7 +75,6 @@
 }
 .hero__form {
   width: 90%;
-  background-color: red;
   display: flex;
 }
 .hero__form input {
@@ -100,24 +86,7 @@
   border: none;
   background-color: #f1f1f1;
 }
-.hero__form button {
-  font-family: "Puppins", sans-serif;
-  background-color: var(--color-blue);
-  padding: 14px 40px;
-  border: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.contact:hover,
-.hero__form button:hover {
-  background-color: rgb(0, 89, 172);
-}
+
 
 /* VIDEO */
 
@@ -266,6 +235,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: calc(50% + 360px) 0;
+  overflow: hidden;
 }
 
 .furniture__container {
@@ -673,7 +643,6 @@
 
 .box-support__form {
   position: relative;
-  background-color: red;
   width: 80%;
 }
 
@@ -689,26 +658,9 @@
 }
 
 .box-support__btn {
-  background-color: var(--color-blue);
-  padding: 20px 50px;
-  color: var(--color-white);
-  font-size: 18px;
-  line-height: 16px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) translateX(-104%);
-  border: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  align-items: center;
-  text-align: center;
-  font-family: "DM Sans";
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-.box-support__btn:hover {
-  background-color: var(--color-dark-blue);
 }
 
 /* PAYMENTS */
