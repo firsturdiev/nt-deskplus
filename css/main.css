@@ -225,6 +225,14 @@
   color: #fff;
   border: 1.5px solid #fff;
   border-radius: 5px;
+  cursor: pointer;
+  transition: color .3s ease,
+    background .3s ease;
+}
+
+.kits__item__price:hover {
+  background-color: #fff;
+  color: var(--color-blue);
 }
 
 /* FURNITURE */
