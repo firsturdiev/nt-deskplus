@@ -120,11 +120,36 @@
   background-color: rgb(0, 89, 172);
 }
 
+/* VIDEO */
+
+.video {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 447px;
+  background-image: url('../img/bg-video.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.video__btn {
+  width: 124px;
+  height: 124px;
+  background: url('../img/play-button.svg') no-repeat center / contain;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* FEATURES */
 
 .features {
   padding-top: 170px;
   padding-bottom: 300px;
+  overflow: hidden;
 }
 
 .features__inner {
