@@ -145,6 +145,7 @@
 
 /* OUR FAVE KITS */
 .kits {
+  padding-top: 150px;
   padding-bottom: 144px;
   background-image: url("../img/dot-bg.svg");
   background-repeat: no-repeat;
@@ -259,6 +260,7 @@
 
 /* FURNITURE */
 .furniture {
+  padding-bottom: 230px;
   position: relative;
   background-image: url("../img/kitchen-furniture.png");
   background-repeat: no-repeat;
